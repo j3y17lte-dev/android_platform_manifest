@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="j3y17lte-dev"
+            fetch="https://github.com/j3y17lte-dev/"
+            revision="lineage-16.0"
+    />
+	
+	<!-- Device Trees -->
+	<project path="device/samsung/j3y17lte" remote="j3y17lte-dev" name="android_device_samsung_j3y17lte" />
+  	<project path="device/samsung/j3y17-common" remote="j3y17lte-dev" name="android_device_samsung_j3y17-common" />
+	
+	<!-- Kernel/Vendor -->
+	<project path="vendor/samsung/j3y17lte" remote="j3y17lte-dev" name="android_vendor_samsung_j3y17lte" />
+	<project path="kernel/samsung/j3y17lte" remote="j3y17lte-dev" name="android_kernel_samsung_j3y17lte" />
+</manifest>
